@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!--safari-->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="width=device-width, initial-scale=.28, minimum-scale=.28, maximum-scale=1.0"
+          name="viewport" id="viewport"/>
+    <title>文件发布命令</title>
+    <link rel="stylesheet" href="index.css"/>
+    <script charset="UTF-8" type="text/javascript" src="md5.js"></script>
+</head>
+<body>
+<div class="center">
+    <h1>文本发布命令</h1>
+    <table class="table" cellspacing="0" cellpadding="0">
+        <tbody class="tbody">
+        <tr>
+            <td class="td1">文件名称</td>
+            <td class="td2"><input type="text" id="fileName"/></td>
+            <td class="td1">文件编号</td>
+            <td class="td2"><input type="text" id="fileNumber"/></td>
+        </tr>
+        <tr>
+            <td class="td1">起草部门</td>
+            <td class="td2"><input type="text" id="Department"/></td>
+            <td class="td1">部门负责人</td>
+            <td class="td2"><input type="text" id="personInCharge"/></td>
+        </tr>
+        <tr>
+            <td class="td1">生效日期</td>
+            <td class="td3">2015年10月27日</td>
+        </tr>
+        <tr>
+            <td class="td1">适用范围</td>
+            <td class="td3"><input type="text" id="scope"/></td>
+        </tr>
+        </tbody>
+
+    </table>
+
+    <div class="text">
+        <span>总裁签署</span>
+        <span class="data">日期</span>
+
+        <div>2015年10月27日</div>
+    </div>
+
+    <div class="footer">
+        <span>具体文件</span>
+
+        <form action="##" class="form" id="form"><textarea name="" id="concreteness" cols="20" rows="5"></textarea>
+        </form>
+    </div>
+    <div id="div"></div>
+    <button id="button" value="盖章">盖章</button>
+</div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

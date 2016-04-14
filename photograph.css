@@ -1,0 +1,26 @@
+.photo {
+    width: 540px;
+    height: 960px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.signetA {
+    left: 40%;
+}
+
+.signetB {
+    left: 50%;
+}
+
+#button {
+    margin-top: 100px;
+}

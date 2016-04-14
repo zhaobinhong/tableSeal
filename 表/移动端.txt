@@ -1,0 +1,16 @@
+代码如下：
+
+<meta name=”viewport” content=”width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=2.0″/>
+
+//控制默认缩放大小、最小缩放大小、最大缩放大小。通过这个可以设置用户的最大和最小缩放程度。
+
+<meta name=”MobileOptimized” content=”320″/>
+
+//表示为移动设备的默认显示宽度为320px，此参数目前使用与安卓手机设备
+
+<meta name=”Iphone-content” content=”320″/>
+
+//表示为Iphone设备的默认显示宽度为320px
+<meta name=”format-detection” content=”telephone=no” />
+
+//表示手机模式设置为启用。

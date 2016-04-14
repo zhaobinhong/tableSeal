@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body bgcolor="#fef4d9" onload="newtext()">
+<script language=javascript >
+    var text=document.title
+    var timerID
+
+    function newtext() {
+
+        clearTimeout(timerID)
+
+        document.title=text.substring(1,text.length)+text.substring(0,1)
+
+        text=document.title.substring(0,text.length)
+
+        timerID = setTimeout("newtext()", 100)
+
+    }
+
+</script>
+</body>
+</html>
